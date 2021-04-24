@@ -13,7 +13,7 @@ function Main() {
         <h1>Design. Develop. <span className="fx">Deploy.</span></h1>
         <p>Got big ideas like me? Why don't we <span className="fx">{"<code/>"}</span> them into life :)</p>
         {mobile && <img src={displayPicture} alt="" />}
-        <a href="https://wa.me/2348113811742" target="_blank" rel="noreferrer" className="whatsapp-button"><SiWhatsapp />&nbsp;Let's discuss</a>
+        <a href="https://wa.me/2348106439619" target="_blank" rel="noreferrer" className="whatsapp-button"><SiWhatsapp />&nbsp;Let's discuss</a>
       </article>
     </section>
   )

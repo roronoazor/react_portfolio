@@ -5,7 +5,7 @@ import { FaNetworkWired, FaReact, FaRobot, FaPython } from 'react-icons/fa'
 import { SiDjango, SiGithub, SiLinkedin, SiTwitter, SiInstagram } from 'react-icons/si'
 import { ImPen, ImPencil } from 'react-icons/im'
 import michaelAvatar from '../misc/michael-peter.png'
-import picture from '../misc/michael-peter.jpg'
+import picture from '../misc/developer_cover_photo.jpg'
 import { RiMenuFoldFill } from 'react-icons/ri'
 
 function MobileMenu() {
@@ -63,10 +63,10 @@ function MobileMenu() {
             </div>
 
             <ul className="social-links">
-              <li><a href="https://github.com/michael-peter" target="_blank" rel="noreferrer"><SiGithub /></a></li>
-              <li><a href="https://linkedin.com/in/peterhmichael" target="_blank" rel="noreferrer"><SiLinkedin /></a></li>
-              <li><a href="https://twitter.com/PeterHMichael" target="_blank" rel="noreferrer"><SiTwitter /></a></li>
-              <li><a href="https://instagram.com/peterhmichael_" target="_blank" rel="noreferrer"><SiInstagram /></a></li>
+              <li><a href="https://github.com/roronoazor" target="_blank" rel="noreferrer"><SiGithub /></a></li>
+              <li><a href="https://www.linkedin.com/in/ugochukwu-odumegwu-4b202119a/" target="_blank" rel="noreferrer"><SiLinkedin /></a></li>
+              <li><a href="#" target="_blank" rel="noreferrer"><SiTwitter /></a></li>
+              <li><a href="#" target="_blank" rel="noreferrer"><SiInstagram /></a></li>
             </ul>
           </>
           :

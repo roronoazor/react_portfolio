@@ -7,19 +7,19 @@ function Share({ share, setShare }) {
 
   const { mobile } = useContext(ViewContext)
 
-  const message = encodeURI(`Hello! Meet Michael, an elegant programmer who uses Python and Javascript to develop web apps, chatbots, automation APIs and each astounding software that his mind, or yours in fact, creates!
+  const message = encodeURI(`Hello! Meet Ugo, an elegant programmer who uses Python and Javascript to develop web apps, chatbots, automation APIs and each astounding software that his mind, or yours in fact, creates!
   
-  View his portfolio at https://michael-peter.github.io
-  or chat with him directly via https://wa.me/2348113811742
+  View his portfolio at https://odumegwu-portfolio.herokuapp.com/
+  or chat with him directly via https://wa.me/2348106439619
   `)
 
-  const twitterMessage = encodeURI(`Meet Michael, @PeterHMichael, an elegant programmer who uses Python and Javascript to develop web apps, chatbots, automation APIs and each astounding software that his mind, or yours in fact, creates! 😍❤️
+  const twitterMessage = encodeURI(`Meet Ugo, an elegant programmer who uses Python and Javascript to develop web apps, chatbots, automation APIs and each astounding software that his mind, or yours in fact, creates! 😍❤️
 `)
 
   const links = {
-    twitter: `https://twitter.com/share?text=${twitterMessage}&url=https://michael-peter.github.io`,
+    twitter: `https://twitter.com/share?text=${twitterMessage}&url=https://odumegwu-portfolio.herokuapp.com/`,
 
-    linkedin: mobile ? `https://linkedin.com/in/peterhmichael` : `https://linkedin.com/sharing/share-offsite/?url=https://michael-peter.github.io`,
+    linkedin: mobile ? `https://www.linkedin.com/in/ugochukwu-odumegwu-4b202119a/` : `https://www.linkedin.com/in/ugochukwu-odumegwu-4b202119a/`,
 
     facebook: `https://facebook.com/sharer.php?u=https://michael-peter.github.io`,
 

@@ -88,8 +88,8 @@ function Menu() {
       <ul className="social-links">
         <li><a href="https://github.com/roronoazor" target="_blank" rel="noreferrer"><SiGithub /></a></li>
         <li><a href="https://www.linkedin.com/in/ugochukwu-odumegwu-4b202119a/" target="_blank" rel="noreferrer"><SiLinkedin /></a></li>
-        <li><a href="https://twitter.com/PeterHMichael" target="_blank" rel="noreferrer"><SiTwitter /></a></li>
-        <li><a href="https://instagram.com/peterhmichael_" target="_blank" rel="noreferrer"><SiInstagram /></a></li>
+        <li><a href="https://twitter.com/UgochukwuOdumegwu" target="_blank" rel="noreferrer"><SiTwitter /></a></li>
+        <li><a href="https://instagram.com/UgochukwuOdumegwu" target="_blank" rel="noreferrer"><SiInstagram /></a></li>
       </ul>
     </aside >
   )
