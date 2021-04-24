@@ -96,9 +96,9 @@ function MobileMenu() {
 
               <div id="ipython" className={`ipython ${(name === "python") ? "active" : ""}`} onClick={onClickHandler}><FaPython /><em>{menu ? " Python" : ""}</em></div>
 
-              <div id="iwebcontent" className={`iwebcontent ${(name === "webcontent") ? "active" : ""}`} onClick={onClickHandler}><ImPen /><em>{menu ? " Web content" : ""}</em></div>
+              {/* <div id="iwebcontent" className={`iwebcontent ${(name === "webcontent") ? "active" : ""}`} onClick={onClickHandler}><ImPen /><em>{menu ? " Web content" : ""}</em></div>
 
-              <div id="iarticle" className={`iarticle ${(name === "article") ? "active" : ""}`} onClick={onClickHandler}><ImPencil /><em>{menu ? " Article writing" : ""}</em></div>
+              <div id="iarticle" className={`iarticle ${(name === "article") ? "active" : ""}`} onClick={onClickHandler}><ImPencil /><em>{menu ? " Article writing" : ""}</em></div> */}
 
             </div>
           </div>

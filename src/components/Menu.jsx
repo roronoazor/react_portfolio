@@ -78,11 +78,11 @@ function Menu() {
           <li className={(name === "python") ? "active" : ""} id="python" onClick={onClickHandler}>Python</li>
         </ul><br /><br />
 
-        <h3>Copywriting</h3>
+        {/* <h3>Copywriting</h3>
         <ul className="skills-links">
           <li className={(name === "webcontent") ? "active" : ""} id="webcontent" onClick={onClickHandler}>Web content</li>
           <li className={(name === "article") ? "active" : ""} id="article" onClick={onClickHandler}>Article writing</li>
-        </ul>
+        </ul> */}
       </section>
 
       <ul className="social-links">
