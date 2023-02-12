@@ -13,18 +13,18 @@ function Navigation() {
   const { dispatch } = useContext(ViewContext)
 
   const mail = {
-    subject: encodeURI("Client from michael-peter.github.io"),
-    body: encodeURI("Dear Michael,")
+    subject: encodeURI("Client from ugo website"),
+    body: encodeURI("Dear Ugo,")
   }
 
-  const mailURI = `mailto:michaelpeter.ai@gmail.com?subject=${mail.subject}&body=${mail.body}`
+  const mailURI = `mailto:ugoodumegwu@gmail.com?subject=${mail.subject}&body=${mail.body}`
 
   return (
     <nav className="navigation">
       <BiLeftArrow className="back-arrow" onClick={() => dispatch({ type: 'SET_MAIN' })} />
 
       <div className="actions">
-        <BsChat onClick={() => window.open("https://wa.me/2348113811742")} title="Talk about this on WhatsApp" />
+        <BsChat onClick={() => window.open("https://wa.me/2348106439619")} title="Talk about this on WhatsApp" />
         <AiOutlineMail onClick={() => window.open(mailURI)} title="Send me a mail about this" />
         <ImShare2 onClick={() => setShare(true)} title="Tell your friends about me" />
         <Share share={share} setShare={setShare} />
